@@ -1,0 +1,21 @@
+
+{
+  "reporter" : "cypress-mochawesome-reporter",
+  "reporterOptions" : {
+    "reportDir" : "cypress/reports",
+    "overwrite": true,
+    "charts": true,
+    "reportPageTitle": "My Test Suite",
+    "embeddedScreenshots": true,
+    "inlineAssets": true,
+    "html": true,
+    "json": false,
+    "timestamp": "mmddyyyy_HHMMss"
+  },
+  "video": true,
+  
+  
+  "chromeWebSecurity": false ,
+  "viewportWidth": 1980,  "viewportHeight": 1080
+  
+}
